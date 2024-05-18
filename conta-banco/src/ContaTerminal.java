@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ContaTerminal
  {
+  
     public static void main(String[] args) throws Exception {
         
         Scanner scan = new Scanner(System.in);
@@ -26,6 +27,6 @@ public class ContaTerminal
         System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é:" + numeroAgencia + ", conta:" + numeroConta + " e seu saldo: " + saldo + " já está disponível para saque.");
         
 
-        
+     scan.close();   
     }
 }
